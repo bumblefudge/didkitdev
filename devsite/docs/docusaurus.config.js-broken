@@ -1,13 +1,13 @@
 module.exports = {
   title: 'Spruce Developer Portal',
   tagline: 'An Open-Source Verifiable Credential Engine',
-  url: 'https://didkit.dev',
+  url: 'https://spruceid.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'docs/logo.png',
-  organizationName: 'bumblefudge', // Usually your GitHub org/user name.
-  projectName: 'SpruceID', // Usually your repo name.
+  favicon: 'logo.png',
+  organizationName: 'Spruce Systems', // Usually your GitHub org/user name.
+  projectName: 'Spruce', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Spruceid.dev',
@@ -22,11 +22,11 @@ module.exports = {
           label: 'DIDKit',
           position: 'left',
         },
-//        {
-//          to: 'Credible', 
-//          label: 'Credible',
-//          //href: "https://crediblewallet.dev/docs/",
-//          position: 'left'},
+        {
+          to: 'Credible', 
+          label: 'Credible',
+          //href: "https://crediblewallet.dev/docs/",
+          position: 'left'},
         {
           href: 'https://github.com/spruceid/',
           label: 'GitHub',
@@ -77,7 +77,7 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        docs: {
+        didkit: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:

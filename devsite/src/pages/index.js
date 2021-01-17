@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Open Source Street Cred',
+    imageUrl: 'opensource.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Everything about our design, our philosophy, and our aesthetic is committed to open-source and open processes. That includes our documentation, which you can interact with directly on GitHub using the link in the upper right.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'White Labels, Deep Cuts',
+    imageUrl: 'whitelabel.jpg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        We don't care if your endusers never learn our name.  We are confident that the right people are listening, and our sound will be known and remembered for the longevity of its samples.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Community Before Commerce',
+    imageUrl: 'community.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We work as hard for our communities as we work for our clients. If you have doubts about our priorities or tactics, or if there are projects going on in the community you feel we should know about, feel free to reach out to our Open Source Yenta.
       </>
     ),
   },
