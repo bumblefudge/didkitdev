@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Open Source Street Cred',
-    imageUrl: 'opensource.png',
+    imageUrl: 'static/img/opensource.png',
     description: (
       <>
         Everything about our design, our philosophy, and our aesthetic is committed to open-source and open processes. That includes our documentation, which you can interact with directly on GitHub using the link in the upper right.
@@ -18,7 +18,7 @@ const features = [
   },
   {
     title: 'White Labels, Deep Cuts',
-    imageUrl: 'whitelabel.jpg',
+    imageUrl: 'static/img/whitelabel.jpg',
     description: (
       <>
         We don't care if your endusers never learn our name.  We are confident that the right people are listening, and our sound will be known and remembered for the longevity of its samples.
@@ -27,7 +27,7 @@ const features = [
   },
   {
     title: 'Community Before Commerce',
-    imageUrl: 'community.png',
+    imageUrl: 'static/img/community.png',
     description: (
       <>
         We work as hard for our communities as we work for our clients. If you have doubts about our priorities or tactics, or if there are projects going on in the community you feel we should know about, feel free to reach out to our Open Source Yenta.

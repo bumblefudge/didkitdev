@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'docs/logo.png',
+  favicon: 'static/img/logo.png',
   organizationName: 'bumblefudge', // Usually your GitHub org/user name.
   projectName: 'didkitdev', // Usually your repo name.
   themeConfig: {
@@ -13,7 +13,7 @@ module.exports = {
       title: 'Spruceid.dev',
       logo: {
         alt: 'Spruce Site Logo',
-        src: 'logo.png',
+        src: 'static/img/logo.png',
       },
       items: [
         {
