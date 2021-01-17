@@ -13,7 +13,7 @@ module.exports = {
       title: 'Spruceid.dev',
       logo: {
         alt: 'Spruce Site Logo',
-        src: 'static/img/logo.png',
+        src: 'img/logo.png',
       },
       items: [
         {
