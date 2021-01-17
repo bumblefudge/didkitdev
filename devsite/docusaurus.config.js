@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Spruce Developer Portal',
-  tagline: 'An Open-Source Verifiable Credential Engine',
+  tagline: '$sudo grok spruce -asap',
   url: 'https://didkit.dev',
-  baseUrl: '/devsite/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'docs/logo.png',
