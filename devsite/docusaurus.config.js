@@ -2,12 +2,12 @@ module.exports = {
   title: 'Spruce Developer Portal',
   tagline: 'An Open-Source Verifiable Credential Engine',
   url: 'https://didkit.dev',
-  baseUrl: '/',
+  baseUrl: '/devsite/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'docs/logo.png',
   organizationName: 'bumblefudge', // Usually your GitHub org/user name.
-  projectName: 'SpruceID', // Usually your repo name.
+  projectName: 'didkitdev', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Spruceid.dev',
